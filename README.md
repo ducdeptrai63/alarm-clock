@@ -16,7 +16,6 @@ The program allows users to input a specific time and will trigger an alarm when
 - [Requirements](#requirements)
 - [How to Compile and Run](#how-to-compile-and-run)
 - [Audio Format](#audio-format)
-- [Example Usage](#example-usage)
 - [Notes](#notes)
 - [Technologies Used](#technologies-used)
 - [Future Improvements](#future-improvements)
@@ -37,7 +36,7 @@ alarm-clock/
 
 ## Folder Description
 - `src`: Contains the source code.
-- `resources`: Contains static resources (e.g., alarm sound file).
+- `resources`: Contains static resources (e.g., `.wav` files).
 - `README.md`: Project documentation.
 
 ## Requirements
@@ -63,14 +62,6 @@ java -cp bin Main
 ## Audio Format
 The program uses `.wav` format for alarm sound.
 
-## Example Usage
-```bash
-Enter alarm time (HH:mm:ss): 22:20:00
-Alarm set for 22:20:00
-22:20:00
-Alarm sound!
-```
-
 ## Notes
 - If the entered time is earlier than current time, the alarm will be scheduled for the next day.
 - Ensure the `.wav` file exists in the correct directory.
@@ -94,7 +85,7 @@ Alarm sound!
 This project serves as a foundational step toward building more advanced time-based or event-driven applications.
 
 ## License
-This project is licensed under the **MIT License**. See the LICENSE file for details.
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
 --- 
 
